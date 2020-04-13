@@ -1,0 +1,197 @@
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px;   }
+
+
+  .container-flex {
+   
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+  }
+  
+
+
+  h2 {
+    margin-top: 5rem;
+    color: #101010;
+
+
+text-align: center;
+}
+
+.italia {
+  text-align: center;
+  vertical-align: middle;
+  
+ margin: 0 20% 5% 20%;
+ font-size: 3rem;
+
+
+}
+
+h1 {
+  margin-bottom: 100px;
+}
+
+
+.style {
+  font-size: 4rem;
+  color:white;
+  font-weight: bold;
+  
+}
+
+.col-md-6 p {
+  font-size: 18px;
+
+}
+
+.harta {
+  width: 60%;
+  height: 50%;
+margin: auto;
+}
+
+
+#contact-section-container {
+  background-image: url(".assets/images/decor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-container {
+  background-color: #333;}
+
+
+  
+
+  .btn-primary {
+    color: white;
+    background-color: #101010;
+    border-color: #101010;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+
+  .btn-primary:hover {
+    color: white;
+    background-color: #333;
+    border-color: #101010;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+
+.btn-default {
+  color: white;
+    background-color: #101010;
+    border-color: #101010;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.btn-default:hover {
+color: white;
+    background-color: #333;
+    border-color: #333;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+
+.form-control {
+  
+  border: 1px solid #101010;
+  border-radius: 3px;
+}
+
+.btn-newsletter {
+  background-color: white;
+  color: #101010;
+  font-weight: bold;
+}
+
+.btn-newsletter:hover {
+
+  border-color: white;
+}
+
+
+.white-text-container .btn-primary {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+  
+
+}
+.white-text-container .btn-primary:hover {
+  background-color: white;
+  color: #333;
+  border-color: white;
+  text-decoration: underline;
+}
+
+
+.anchor-link {
+  font-weight: bold;
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #333;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #333;
+  color: white;
+}
